@@ -1,0 +1,48 @@
+.magnetize-button {
+  position: relative;
+  min-width: 160px;
+  padding: 12px 22px;
+  border: 0.7px solid #b898ee65;
+  border-radius: 8px;
+  background: #abfce6;
+  color: #f2ac97;
+  cursor: pointer;
+  overflow: visible;
+  transition: all 0.3s ease;
+  font-size: 15px;
+  z-index: 1;
+}
+
+.magnetize-button:hover {
+  background: rgba(255, 255, 255, 0.036);
+}
+
+.magnetize-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  z-index: 2;
+}
+
+.particle {
+  position: absolute;
+  left: 67%;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: #eed18cc8;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.particle-active {
+  opacity: 1;
+}
+
+.magnet-active {
+  transform: scale(1.1);
+}
