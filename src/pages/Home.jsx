@@ -35,7 +35,7 @@ const projects = [
     description: "projeto de um cafe gateiro.",
     image: miauchiatto,
     github: "https://github.com/dedadevye/miauchiatto_site",
-    site: "https://miauchiatto-site.vercel.app/",
+    deploy: "https://miauchiatto-site.vercel.app/",
   },
 
   {
@@ -43,7 +43,7 @@ const projects = [
     description: "Jogo interativo para adivinhar o número secreto.",
     image: matrix,
     github: "https://github.com/dedadevye/adivinhe-o-numero",
-    site: "https://adivinhe-o-numero-orpin.vercel.app/",
+    deploy: "https://adivinhe-o-numero-orpin.vercel.app/",
   },
 ];
 
