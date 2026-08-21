@@ -6,6 +6,7 @@ import Header from "../components/Header";
 import MagnetizeButton from "../components/MagnetizeButton";
 import foto from "../assets/icon.png";
 import matrix from "../assets/jogo-html.png";
+import miauchiatto from "../assets/miauchiatto.png";
 
 const socialLinks = [
   {
@@ -30,16 +31,23 @@ const socialLinks = [
 
 const projects = [
   {
+    title: "Miauchiatto",
+    description: "projeto de um cafe gateiro.",
+    image: miauchiatto,
+    github: "https://github.com/dedadevye/miauchiatto_site",
+    site: "https://miauchiatto-site.vercel.app/",
+  },
+
+  {
     title: "Adivinhe o número",
     description: "Jogo interativo para adivinhar o número secreto.",
     image: matrix,
     github: "https://github.com/dedadevye/adivinhe-o-numero",
-    deploy: "https://adivinhe-o-numero-orpin.vercel.app/",
-  }
+    site: "https://adivinhe-o-numero-orpin.vercel.app/",
+  },
 ];
 
-
-function Home() { 
+function Home() {
   const navigate = useNavigate();
   return (
     <>
@@ -100,31 +108,31 @@ function Home() {
 
         <div className="galeria_grid">
           {projects.map((project) => (
-  <article className="projeto_card" key={project.title}>
-    <img
-      className="projeto_imagem"
-      src={project.image}
-      alt={`Imagem do projeto ${project.title}`}
-    />
+            <article className="projeto_card" key={project.title}>
+              <img
+                className="projeto_imagem"
+                src={project.image}
+                alt={`Imagem do projeto ${project.title}`}
+              />
 
-    <div className="projeto_conteudo">
-      <h3 className="projeto_titulo">{project.title}</h3>
-      <p className="projeto_descricao">{project.description}</p>
+              <div className="projeto_conteudo">
+                <h3 className="projeto_titulo">{project.title}</h3>
+                <p className="projeto_descricao">{project.description}</p>
 
-      <div className="projeto_links">
-        <a href={project.github} target="_blank" rel="noreferrer">
-          GitHub
-        </a>
+                <div className="projeto_links">
+                  <a href={project.github} target="_blank" rel="noreferrer">
+                    GitHub
+                  </a>
 
-        {project.deploy && (
-          <a href={project.deploy} target="_blank" rel="noreferrer">
-            Deploy
-          </a>
-        )}
-      </div>
-    </div>
-  </article>
-))}
+                  {project.deploy && (
+                    <a href={project.deploy} target="_blank" rel="noreferrer">
+                      Deploy
+                    </a>
+                  )}
+                </div>
+              </div>
+            </article>
+          ))}
         </div>
 
         <p className="galeria_descricao">
