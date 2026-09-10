@@ -1,14 +1,16 @@
-import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FileText } from "lucide-react";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import curriculo from "../assets/curriculo teste.pdf";
 
 const socialLinks = [
   {
-    href: "https://instagram.com/yeda._._._",
-    label: "Instagram",
-    className: "btn-icon-instagram",
-    icon: <FaInstagram />,
+    href: curriculo,
+    label: "Currículo",
+    className: "btn-icon-curriculo",
+    icon: <FileText />,
   },
   {
     href: "https://www.linkedin.com/in/yeda-rios-5b2994272/",
