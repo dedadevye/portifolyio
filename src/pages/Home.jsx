@@ -32,7 +32,7 @@ const socialLinks = [
 const projects = [
   {
     title: "Miauchiatto",
-    description: "projeto de um cafe gateiro.",
+    description: "Site Full Stack para um cat café, desenvolvido com React, Flask e SQLite.Implementa API REST, autenticação JWT, controle de acesso e CRUD de gatos e produtos.Resolve desafios de integração entre frontend, backend e banco de dados, além de upload e filtros.Interface responsiva e interativa com animações, transições e dark mode.",
     image: miauchiatto,
     github: "https://github.com/dedadevye/miauchiatto_site",
     deploy: "https://miauchiatto-site.vercel.app/",
@@ -121,12 +121,12 @@ function Home() {
 
                 <div className="projeto_links">
                   <a href={project.github} target="_blank" rel="noreferrer">
-                    GitHub
+                    Repositório
                   </a>
 
                   {project.deploy && (
                     <a href={project.deploy} target="_blank" rel="noreferrer">
-                      Deploy
+                      Visitar site
                     </a>
                   )}
                 </div>
