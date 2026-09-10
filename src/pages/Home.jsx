@@ -9,6 +9,7 @@ import foto from "../assets/icon.png";
 import matrix from "../assets/jogo-html.png";
 import miauchiatto from "../assets/miauchiatto.png";
 import curriculo from "../assets/curriculo teste.pdf";
+import drip from "../assets/drip.png";
 
 const socialLinks = [
   {
@@ -46,6 +47,14 @@ const projects = [
     image: matrix,
     github: "https://github.com/dedadevye/adivinhe-o-numero",
     deploy: "https://adivinhe-o-numero-orpin.vercel.app/",
+  },
+
+  {
+    title: "Loja Drip",
+    description: "E-commerce para venda de roupas e acessórios, desenvolvido com React e Node.js.",
+    image: drip,
+    github: "https://github.com/dedadevye/loja-drip",
+    deploy: "https://loja-drip-store-two.vercel.app/",
   },
 ];
 
