@@ -32,7 +32,7 @@ const socialLinks = [
 const projects = [
   {
     title: "Miauchiatto",
-    description: "Site Full Stack para um cat café, desenvolvido com React, Flask e SQLite.Implementa API REST, autenticação JWT, controle de acesso e CRUD de gatos e produtos.Resolve desafios de integração entre frontend, backend e banco de dados, além de upload e filtros.Interface responsiva e interativa com animações, transições e dark mode.",
+    description: "Site Full Stack para um cat café, desenvolvido com React, Flask e SQLite. Possui autenticação JWT, CRUD de gatos e produtos, filtros e integração entre frontend e backend.",
     image: miauchiatto,
     github: "https://github.com/dedadevye/miauchiatto_site",
     deploy: "https://miauchiatto-site.vercel.app/",
@@ -40,7 +40,7 @@ const projects = [
 
   {
     title: "Adivinhe o número",
-    description: "Jogo interativo para adivinhar o número secreto.",
+    description: "Jogo interativo com orientação por voz, que anuncia o desafio e conduz o jogador.",
     image: matrix,
     github: "https://github.com/dedadevye/adivinhe-o-numero",
     deploy: "https://adivinhe-o-numero-orpin.vercel.app/",
