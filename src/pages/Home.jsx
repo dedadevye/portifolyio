@@ -77,7 +77,7 @@ function Home() {
           </MagnetizeButton>
         </section>
 
-        <div className="icon-buttons" aria-label="Redes sociais">
+        <div className="icon-buttons" aria-label="Saiba Mais">
           {socialLinks.map((link) => (
             <a
               key={link.label}
